@@ -1,6 +1,8 @@
-<div dir='rtl' lang='he'>
-#The-Bugged
 
+<div dir='rtl' lang='he'>
+  
+# The-Bugged
+  
 **tagline: Always under construction**
 
 ## מהות המשחק
