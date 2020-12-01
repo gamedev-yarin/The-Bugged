@@ -127,14 +127,17 @@
 היום קיימים בשוק המון משחקי שלבים שמבוססים על הרעיון של לאסוף מטבעות ולהגיע לנקודת הסיום, כמו:
 
 * [Super Mario bros](https://supermariobros.io/):
+
 ![](images/Super-Mario-bros.jpg)
 
 * [Sonic the Hedgehog (1991)](https://www.imdb.com/title/tt0291490/)
+
 ![](images/Sonic-the-Hedgehog-(1991).png)
 
 אבל המשחק שהכי בלט בחיפוש אחר משחק דומה היה 
 
 * [GREY-BOX TESTING](https://samhogan.itch.io/grey-box-testing)
+
 ![](images/GREY-BOX-TESTING.png)
 
 השוני מבחינת שני המשחקים הראשונים למשחק שלי הוא בדרך מעבר השלבים. בשני המשחקים הראשונים ההתקדמות מתבצעת על ידי תזוזה בשלב / עולם תוך כדי איסוף מטבעות התחמקות או הריגת מפלצות.
