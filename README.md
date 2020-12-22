@@ -1,6 +1,6 @@
 # The-Bugged
 
-[Game](https://yarinsh.itch.io/the-bugged)
+[The Game](https://yarinsh.itch.io/the-bugged)
 
 ## Play-related script:
 
