@@ -5251,15 +5251,16 @@ MonoBehaviour:
 
     Press the left mouse button to grab objects.
 
+    Use
+    the r to restart the level.
 
 
-    Note
-    not all objects can be grabbed.
+    Note not all objects can be grabbed.
 
 
 
-    Try to find all the bugs to get to the
-    end point
+    Try
+    to find all the bugs to get to the end point
 
 '
   m_isRightToLeft: 0
