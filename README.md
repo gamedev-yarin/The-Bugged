@@ -1,6 +1,7 @@
 # The-Bugged
 
 [The Game](https://yarinsh.itch.io/the-bugged)
+[The Game - level 0](https://yarinsh.itch.io/the-bugged-level-0)
 
 ## Play-related script:
 
