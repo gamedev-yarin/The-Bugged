@@ -2,9 +2,6 @@
 
 [The Game](https://yarinsh.itch.io/the-bugged)
 
-
-[The Game - level 0](https://yarinsh.itch.io/the-bugged-level-0)
-
 ## Play-related script:
 
 * [LookX](https://github.com/gamedev-yarin/The-Bugged/blob/main/Assets/Script/Player/LookX.cs) used to control the camera right and left.
