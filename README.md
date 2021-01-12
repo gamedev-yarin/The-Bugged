@@ -1,6 +1,7 @@
 # The-Bugged
 
 [trailer](https://www.youtube.com/watch?v=SBd3AhpdCo0&feature=youtu.be)
+
 [The Game](https://yarinsh.itch.io/the-bugged)
 
 ## Play-related script:
