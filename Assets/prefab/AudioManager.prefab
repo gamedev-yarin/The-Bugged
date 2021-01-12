@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2287476874373573780
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2287476874373573782}
+  - component: {fileID: 2287476874373573781}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2287476874373573782
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2287476874373573780}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 16.639708, y: 8.774058, z: -21.662663}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2287476874373573781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2287476874373573780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4d5ce713fdbee843aed91733393ee52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theme: theme
+  sounds:
+  - name: theme
+    clip: {fileID: 8300000, guid: 6ea9c768fe1fe1f48a3812a8eaa694c7, type: 3}
+    volume: 0.2
+    loop: 1
+    music: 1
+    source: {fileID: 0}
+  - name: level-0-part-2
+    clip: {fileID: 8300000, guid: 7dc32ca3f8eb06a42bc24d599a90844a, type: 3}
+    volume: 1
+    loop: 0
+    music: 0
+    source: {fileID: 0}
+  - name: level-1
+    clip: {fileID: 8300000, guid: 8b13b9caccd50c74fbdcd703a993fb6e, type: 3}
+    volume: 1
+    loop: 0
+    music: 0
+    source: {fileID: 0}
+  - name: level-1-clue-1
+    clip: {fileID: 8300000, guid: 4fb50f534f13f64408f6ba37d2a77d43, type: 3}
+    volume: 1
+    loop: 0
+    music: 0
+    source: {fileID: 0}
+  - name: level-1-ending?
+    clip: {fileID: 8300000, guid: 5e51deb6c2efd154fb6335c3130ec686, type: 3}
+    volume: 1
+    loop: 0
+    music: 0
+    source: {fileID: 0}
+  - name: level-2
+    clip: {fileID: 8300000, guid: 5c47f967ac7be20469ad0466411dbfed, type: 3}
+    volume: 1
+    loop: 0
+    music: 0
+    source: {fileID: 0}
+  - name: level-3
+    clip: {fileID: 8300000, guid: bd8684ee94dfac34b93f9673de6bad31, type: 3}
+    volume: 1
+    loop: 0
+    music: 0
+    source: {fileID: 0}
+  - name: level-0-part-3
+    clip: {fileID: 8300000, guid: a193d0e03761a4a41bc8a7ca5a0e4ec9, type: 3}
+    volume: 1
+    loop: 0
+    music: 0
+    source: {fileID: 0}
+  - name: level-3-clue
+    clip: {fileID: 8300000, guid: 613b71a9acb430545a94a12e6abf6a91, type: 3}
+    volume: 1
+    loop: 0
+    music: 0
+    source: {fileID: 0}
+  - name: level-0-part-3
+    clip: {fileID: 8300000, guid: a193d0e03761a4a41bc8a7ca5a0e4ec9, type: 3}
+    volume: 1
+    loop: 0
+    music: 0
+    source: {fileID: 0}
+  - name: win
+    clip: {fileID: 8300000, guid: 18e97af18f7a0b94b96367e0f5570126, type: 3}
+    volume: 1
+    loop: 0
+    music: 0
+    source: {fileID: 0}
+  - name: lose
+    clip: {fileID: 8300000, guid: 87995976a7fe996488432394a4d073a5, type: 3}
+    volume: 1
+    loop: 0
+    music: 0
+    source: {fileID: 0}
+  - name: level-0-part-1
+    clip: {fileID: 8300000, guid: fc180cc3c377412429e819324058d74d, type: 3}
+    volume: 1
+    loop: 0
+    music: 0
+    source: {fileID: 0}
+  - name: winMusic
+    clip: {fileID: 8300000, guid: c637bceba857c10419ebba010c7c02a8, type: 3}
+    volume: 0.2
+    loop: 1
+    music: 1
+    source: {fileID: 0}
+  - name: coin
+    clip: {fileID: 8300000, guid: 1c150aeabae155e4eb50fec5b007070b, type: 3}
+    volume: 1
+    loop: 0
+    music: 0
+    source: {fileID: 0}

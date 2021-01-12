@@ -11,24 +11,57 @@ public class boxMover : MonoBehaviour
     [SerializeField] GameObject end;
     [SerializeField] float speed = 5f;
 
-    [SerializeField] Vector3 startPos;
-    [SerializeField] Vector3 endPos;
-    [SerializeField] bool flag = true;
+    [SerializeField] bool startFromEnd = true;
 
-    // Start is called before the first frame update
+    [SerializeField] GameObject pauseObject;
+
+    Vector3 startPos;
+    Vector3 endPos;
+
+
     void Start()
     {
         startPos = start.transform.position;
         endPos = end.transform.position;
+        if (startFromEnd)
+        {
+            Vector3 tempPos = transform.position;
+            tempPos.x = endPos.x;
+            transform.position = tempPos;
+        }
+        else
+        {
+            Vector3 tempPos = transform.position;
+            tempPos.x = startPos.x;
+            transform.position = tempPos;
+        }
+
     }
 
-    // Update is called once per frame
     void Update()
     {
-        Vector3 mover = new Vector3(0, 0, speed * Time.deltaTime);
-        if (flag) transform.position += mover;
+        if (pauseObject != null) {
+            PauseGame pg = pauseObject.GetComponent<PauseGame>();
+            if (pg.gamePause) return;
+            else
+            {
+                Mover();
+            }
+        }
+        else 
+        {
+            Mover();
+        }
+
+    }
+
+
+    private void Mover()
+    {
+        Vector3 mover = new Vector3(speed * Time.deltaTime, 0, 0);
+        if (startFromEnd) transform.position += mover;
         else transform.position -= mover;
-        if (transform.position.z <= startPos.z) flag = true;
-        if (transform.position.z >= endPos.z) flag = false;
+        if (transform.position.x <= endPos.x) startFromEnd = true;
+        if (transform.position.x >= startPos.x) startFromEnd = false;
     }
 }
